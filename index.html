@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>זה התחת - האתר הרשמי!</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        html { font-size: 62.5% }
+        body { 
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background: linear-gradient(#e66465, #e591e5); 
+            font-family: 'Varela Round', sans-serif;
+            animation: opening 1s ease;
+        }
+        main {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .content { text-align: center; animation: moving 1s ease alternate-reverse infinite;}
+        h1 { font-size: 6rem; margin: 0; }
+        h2 { font-size: 4rem; margin: 0; }
+        @keyframes moving {
+            0% {
+                color: white;
+                transform: rotateZ(5deg);
+            }
+            100% {
+                color: black;
+                transform: rotateZ(-5deg);
+            }
+        }
+    </style>
+</head>
+<body dir="rtl">
+    <main>
+        <div class="content">
+            <h1>זה התחת</h1>
+            <h2>בקרוב...</h2>
+        </div>
+    </main>
+</body>
+</html>
